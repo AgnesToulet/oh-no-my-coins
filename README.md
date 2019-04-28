@@ -7,6 +7,8 @@ But I would be happy if it helps you with your projects!
 It's over there: https://malya.itch.io/oh-no-my-coins
 
 <h2>Made with: </h2>
-* Unity
-* Krita
-* Love <3
+<ul>
+  <li>Unity</li>
+  <li>Krita</li>
+  <li>Love</li>
+</ul>
