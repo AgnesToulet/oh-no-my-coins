@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6438156253963520398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6438156253963520387}
+  - component: {fileID: 6438156253963520396}
+  - component: {fileID: 6438156253963520397}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6438156253963520387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438156253963520398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6438156253963520396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438156253963520398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4a44ff366ac2e44bded1d910879ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exit: {fileID: 3891201888728692703, guid: 9782a8dbd3290da489db688e97aeb969, type: 3}
+  trapdoor: {fileID: 3003615429657319093, guid: b778ab01eccfe2c4bbce6486c8f5ef41,
+    type: 3}
+  floorTiles:
+  - {fileID: 1996412850102327410, guid: 69013e47ea43d03448db9cdb878bc355, type: 3}
+  - {fileID: 3269874060352515308, guid: 2579bd7a9e6d1564aa22fac2fbb86db9, type: 3}
+  wallTiles:
+  - {fileID: 3373607171434644289, guid: 5a10bd2ebe0f17247a4251c9852fb8cb, type: 3}
+  pileOfGold: {fileID: 5496213113706884662, guid: 525232ad1e91b744f8f99cbfa0d212af,
+    type: 3}
+  chest: {fileID: 2073170596274790314, guid: de792bb7897e4e040a921f847fbded8e, type: 3}
+  enemy: {fileID: 7176743843529781143, guid: 19a3d22f59475a24ab433d1201bc891d, type: 3}
+--- !u!114 &6438156253963520397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438156253963520398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d640b01b9d91fcf48ae0942b709203b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardScript: {fileID: 0}
+  doingSetup: 0
+  player: {fileID: 2677134256400567988, guid: 18b19e6f28bd42d4fb1425633860861c, type: 3}
